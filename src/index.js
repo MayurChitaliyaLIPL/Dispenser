@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Dashboard from './dashbord'
+// import ShadcnDashboard from './shadcn1';
+// import ResizableDemo from './resize';
+// import Charts from './shadcn2';
+// import MiniDrawer from './sidebar';
+// import Componentpie from './pie';
+// import CompanyRegistrationForm from './temp';
+// import SignIn from './login';
+import App from './sidebar';
+// import MiniDrawer from './sidebar';
+
+// import Splitt from './splitscreen/app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <App/>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

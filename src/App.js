@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import { Sidebar } from 'lucide-react';
+// import {useState} from 'react';
+// import MiniDrawer from './sidebar';
+// import SignIn from './login';
+// import Signup from './registration';
+// import CompanyRegistrationForm from './temp';
+// import {
+//   BrowserRouter as Router,
+//   createRoutesFromElements,
+//   Route,
+//   Routes,
+//   RouterProvider,
+// } from "react-router-dom"
+// function App() {
+ 
+//   return (
+//     <div>
+//     <Router>
+    
+//       <Routes>
+//       <Route exact path="/" element={<SignIn/>}/>
+//        <Route exact path="/registration" element={<Signup/>} />
+//        {/* <Route exact path='/temp' element={<CompanyRegistrationForm/>}/>
+//        <Route exact path="/sidebar" element={<MiniDrawer/>} /> */}
 
-export default App;
+//       </Routes>
+ 
+//     </Router>
+ 
+//     </div>
+//   );
+// }
+ 
+// export default App;
+ 
